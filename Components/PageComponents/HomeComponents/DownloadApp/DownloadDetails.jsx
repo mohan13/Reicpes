@@ -1,7 +1,7 @@
 import img1 from "../../../Resorces/Images/big.png";
 import img2 from "../../../Resorces/Images/small_2.png";
 import img3 from "../../../Resorces/Images/small_1.png";
-import { AiFillAndroid, AiFillApple } from "react-icons/Ai";
+import { AiFillAndroid, AiFillApple } from "react-icons/ai";
 export const downloadDetails = [
   {
     title: "Download app to get recipes from Everywhere",
