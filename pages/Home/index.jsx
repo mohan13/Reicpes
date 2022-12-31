@@ -7,14 +7,14 @@ import Birthday from "../../Components/PageComponents/HomeComponents/BirthdayCak
 import Feedback from "../../Components/PageComponents/HomeComponents/Feedbacks/index";
 import Download from "../../Components/PageComponents/HomeComponents/DownloadApp/index";
 
-const index = () => {
+const index = ({Data}) => {
   return (
     <Layout>
       <div className="flex flex-col gap-14">
         <Banner />
-        <Trend />
+        <Trend Trending={Data} />
         <RecipeVedio />
-        <Birthday />
+        <Birthday Data={Data}/>
         <Download />
         <Feedback />
       </div>

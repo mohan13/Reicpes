@@ -1,9 +1,16 @@
 import Head from "next/head";
-import Home1 from "./Home";
-// import About from "./About";
-// import Contact from "./Contact";
-
-export default function Home() {
+import Home from "./Home";
+export const getStaticProps = async () => {
+  const res = await fetch("https://api.punkapi.com/v2/beers");
+  const Data = await res.json();
+  console.log("data", Data);
+  return {
+    props: {
+      Data:Data
+    },
+  };
+};
+export default function Index({ Data }) {
   return (
     <div>
       <Head>
@@ -12,8 +19,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <Home1 />
+        <Home Data={Data} />
       </main>
     </div>
-  );
-}
+  );}

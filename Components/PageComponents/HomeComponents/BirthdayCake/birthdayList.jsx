@@ -13,12 +13,12 @@ export const BdayList = [
     image: img2,
     Title: "Birthday Catering",
     paragraph:
-     <div>"Lorem ipsum dolor sit amet,<br/> consectetur adipisicing elit, do<br/> eiusmod tempor incididunt ut labore et<br/> dolore magna aliqua."</div>,
+     '<div>"Lorem ipsum dolor sit amet,<br/> consectetur adipisicing elit, do<br/> eiusmod tempor incididunt ut labore et<br/> dolore magna aliqua."</div>',
   },
   {
     image: img3,
     Title: "Birthday Catering",
     paragraph:
-     <div>"Lorem ipsum dolor sit amet,<br/> consectetur adipisicing elit, do<br/> eiusmod tempor incididunt ut labore et<br/> dolore magna aliqua."</div>,
+     "Lorem ipsum dolor sit amet,<br/> consectetur adipisicing elit, do </br> eiusmod tempor incididunt ut labore et<br/> dolore magna aliqua.",
   },
 ];

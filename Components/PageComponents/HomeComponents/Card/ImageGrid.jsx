@@ -7,10 +7,10 @@ const ImageGrid = ({ image1, image3, image2 }) => {
       <Image src={image1} alt="" />
       <div className="absolute hidden md:grid grid-cols-2 ">
         <div className="mt-14">
-          <Image src={image2} />
+          <Image src={image2} alt='' />
         </div>
         <div className="mt-80 ml-6">
-          <Image src={image3} />
+          <Image src={image3} alt=''/>
         </div>
       </div>
     </div>

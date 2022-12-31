@@ -4,7 +4,7 @@ import Sidebar from "../SideBar/index";
 import { FaSistrix, FaBars } from "react-icons/fa";
 import Logo from "../../Resorces/Images/logo.png";
 import NavLink from "../NavItems/index";
-const toolbar = () => {
+const Toolbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   let model;
   if (showMenu) {
@@ -54,4 +54,4 @@ const toolbar = () => {
   );
 };
 
-export default toolbar;
+export default Toolbar;

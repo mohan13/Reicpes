@@ -20,7 +20,7 @@ const index = () => {
             <div key={i}>
               <div className="grid md:flex border p-10">
                 <div className="w-24 h-24 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 flex-shrink-0">
-                  <Image src={val.img} />
+                  <Image src={val.img} alt=''/>
                 </div>
                 <div>
                   <div className="text-gray-900 text-lg title-font font-medium">

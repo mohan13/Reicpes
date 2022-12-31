@@ -1,13 +1,13 @@
 import React from "react";
-import { BdayList } from "./birthdayList";
+// import { BdayList } from "./birthdayList";
 import Card from "../Card/TrendGrid";
-const index = () => {
+const index = ({Data}) => {
   return (
-    <div className=" items-center text-center md:flex grid justify-evenly gap-10">
-      {BdayList?.map((val, i) => {
+    <div className="grid-cols-1 mx-6 md:grid-cols-3 items-center text-center md:flex grid justify-evenly gap-10">
+      {Data?.slice(0,4).map((val, i) => {
         return (
-          <div key={i} className='grid border p-8'>
-            <Card img={val.image} Title={val.Title} Time={val.paragraph} />
+          <div key={i}>
+            <Card img={val.image_url} Title={val.name} SubTitle={val.tagline} Time={val.first_brewed} />
           </div>
         );
       })}
