@@ -6,7 +6,7 @@ export const getStaticProps = async () => {
   console.log("data", Data);
   return {
     props: {
-      Data:Data
+      Data: Data,
     },
   };
 };
@@ -22,4 +22,5 @@ export default function Index({ Data }) {
         <Home Data={Data} />
       </main>
     </div>
-  );}
+  );
+}
