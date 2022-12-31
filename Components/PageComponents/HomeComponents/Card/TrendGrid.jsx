@@ -1,4 +1,5 @@
 import React from "react";
+// import Image from "next/image";
 const TrendGrid = ({ img, SubTitle, Title }) => {
   return (
     <div className="border flex flex-col p-6 h-80 items-center ">
@@ -7,7 +8,7 @@ const TrendGrid = ({ img, SubTitle, Title }) => {
       </div>
       <div className=" flex flex-col">
         <div className="text-xl font-title w-52">{Title}</div>
-        <div className="flex flex-col text-md font-normal">"{SubTitle}"</div>
+        <div className="flex flex-col text-md font-normal">{SubTitle}</div>
       </div>
     </div>
   );

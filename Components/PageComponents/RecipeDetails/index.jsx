@@ -44,7 +44,7 @@ const index = ({ Details }) => {
                   <div>
                     <div className="font-title text-xl">Brewers Tips</div>
                     <div className="md:text-md leading-normal">
-                      "{val.brewers_tips}"
+                      {val.brewers_tips}
                     </div>
                   </div>
                   <div>

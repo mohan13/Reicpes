@@ -10,7 +10,7 @@ const Index = ({ img, Title, SubTitle, Time, description }) => {
       </div>
       <div className="text-2xl font-title font-semibold ">{Title}</div>
       <div className="grid text-md font-normal">
-        <div>"{SubTitle}"</div>
+        <div>{SubTitle}</div>
         <div>First brewed : {Time}</div>
       </div>
     </div>
